@@ -24,7 +24,8 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background: #43AFFC;
+    /* background: #43AFFC; */
+    background: url('../img/bg_clouds_v3.png') 78% 42% no-repeat;
     /* background: linear-gradient(rgb(47,150,163), rgb(48,62,143)); */
     /* color: #fff; */
 }
