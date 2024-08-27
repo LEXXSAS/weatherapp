@@ -35,7 +35,7 @@ locationBtn.addEventListener("click", () => {
 
 const apiKey = "a27e708ed6e1f554f65bc96cd622ce99";
 function requestApi(city) {
-    api = `https://api.openweathermap.org/data/2.5/weather?q=${city}&lang=ru&units=metric&appid=${apiKey}`;
+    api = `https://api.openweathermap.org/data/2.5/weather?q=${city}&lang=ru&units=metric&APPID=${apiKey}`;
     fetchData();
 }
 
